@@ -1,0 +1,17 @@
+PlayerTracker - Track movement of players
+Version: v1.0
+
+This plugin tracks the movement of players on your server chunk-wise.
+Every time a player moves from one chunk to another is tracked in a textfile under plugins/PlayerTracker.
+Each player has his own textfile. For example, player "kuckoobrain" has the file plugins/PlayerTracker/kuckoobrain.txt.
+The structure of the textfile is as following:
+date;time;environment;chunkx;chunkz
+
+Features:
+* Track chunk-wise movement of players to textfiles
+* /chunk command to print the current chunk and environment
+
+Changelog:
+Version 1.0
+* Releasing plugin
+
