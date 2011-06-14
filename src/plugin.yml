@@ -1,0 +1,11 @@
+name: PlayerTracker
+main: me.kuckoobrain.PlayerTracker.PlayerTracker
+version: 1.0
+author: kuckoobrain
+website: www.bukkit.org
+description: >
+              Tracks the movement of a player (chunk-wise) and logs to file
+commands:
+  chunk:
+    description: Prints coordinates of current chunk
+    usage: /<command>
